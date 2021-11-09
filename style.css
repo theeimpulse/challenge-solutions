@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,900;1,500;1,700&display=swap');
+
+body{
+    font-family:"red hat display";
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+    min-height: 100vh;
+}
+
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+.order-text{
+    padding: 7%;
+    text-align: center;
+}
+
+.title{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.order-text p.order-subtitle {
+    color: black;
+   margin-bottom: 25px;
+}
+
+.annual-plan{
+    background-color: hsl(225, 100%, 98%);
+    color: black;
+    border-radius: 12px;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color.3s ease;
+}
+
+.annual-plan a:hover{
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+}
+
+.annual-plan-left{
+    font-size: 20px;
+    display: flex;
+    align-items: center;   ;
+}
+   
+
+.proceed-button:hover{
+    background-color:hsl(224, 23%, 55%);
+
+}
+
+.proceed-button{
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-color: hsl(245, 75%, 52%);
+    padding: 20px;
+    border-radius: 12px;
+    margin: 30px;
+    transition: background-color.3s ease;
+}
+
+.cancel-button{
+    display: block;
+    color:hsl(224, 23%, 55%);
+    text-decoration: none;
+    
+}
+
+.cancel-button:hover{
+    color:darkblue;
+}
